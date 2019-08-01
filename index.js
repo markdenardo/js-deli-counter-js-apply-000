@@ -1,6 +1,6 @@
-function takeANumber(lineOfPeople,personsName){
+function takeANumber(lineOfPeople,personsNumber){
  
- lineOfPeople.push(personsName);
+ lineOfPeople.push(personsNumber);
  //pushes personsName(Ada) into lineOfPeople[]
  return "Welcome, " +personsName+ ". You are number "+ (lineOfPeople.length)+ " in line.";
  //prints the statement 
