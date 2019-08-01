@@ -1,12 +1,15 @@
 function takeANumber(lineOfPeople){
- var personsNumber = 1;
+ var personsNumber = 0;
+ personsNumber+=1;
  lineOfPeople.push(personsNumber);
+ 
  //pushes personsNumber(1) into lineOfPeople[]
- return "Welcome, " +personsNumber+ ". You are number "+ (lineOfPeople.length)+ " in line.";
+ return  ". You are " number + (lineOfPeople.length)+ " in line.";
  //prints the statement 
 }
   
 function nowServing(lineOfPeople){
+ console.log (personsNumber);
   if(lineOfPeople.length<=0) {
   return "There is nobody waiting to be served!";
   }
