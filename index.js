@@ -1,10 +1,10 @@
+
+var personsNumber = 0;
 function takeANumber(lineOfPeople){
- var personsNumber = 0;
  personsNumber+=1;
  lineOfPeople.push(personsNumber);
- 
  //pushes personsNumber(1) into lineOfPeople[]
- return  ". You are " number + (lineOfPeople.length)+ " in line.";
+ return  ". You are number "+ (lineOfPeople.length)+ " in line.";
  //prints the statement 
 }
   
