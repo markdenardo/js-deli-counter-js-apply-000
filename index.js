@@ -1,8 +1,8 @@
-function takeANumber(lineOfPeople,personsNumber){
- 
+function takeANumber(lineOfPeople){
+ var personsNumber = 1;
  lineOfPeople.push(personsNumber);
- //pushes personsName(Ada) into lineOfPeople[]
- return "Welcome, " +personsName+ ". You are number "+ (lineOfPeople.length)+ " in line.";
+ //pushes personsNumber(1) into lineOfPeople[]
+ return "Welcome, " +personsNumber+ ". You are number "+ (lineOfPeople.length)+ " in line.";
  //prints the statement 
 }
   
